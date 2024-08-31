@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="number"], 
+input[type="range"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.range-slider {
+    -webkit-appearance: none;
+    background: #ddd;
+    height: 8px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.range-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #007bff;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.range-slider::-moz-range-thumb {
+    background: #007bff;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.radio-buttons label {
+    font-size: 16px;
+    color: #333;
+}
+
+.radio-buttons input[type="radio"] {
+    margin-right: 5px;
+}
